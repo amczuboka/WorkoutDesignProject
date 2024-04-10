@@ -1,3 +1,4 @@
+# IDEs and editors
 ### Angular template
 ## Angular ##
 # compiled output
@@ -10,10 +11,25 @@ app/**/*.js.map
 node_modules/
 bower_components/
 
-# IDEs and editors
 .idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 # misc
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+./.angular/cache
 .sass-cache/
 connect.lock/
 coverage/
@@ -30,3 +46,7 @@ e2e/*.map
 # System Files
 .DS_Store/
 
+
+# System files
+.DS_Store
+Thumbs.db
