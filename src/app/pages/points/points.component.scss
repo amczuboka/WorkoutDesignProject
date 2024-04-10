@@ -40,28 +40,30 @@
 }
 
 .Activity p {
-    height: 10%;
-    order: 1;
-    margin-left: 5%;
-    align-self: flex-start;
+  height: 10%;
+  order: 1;
+  margin-left: 7%;
+  align-self: flex-start;
 }
 
 .Competition p {
-    height: 10%;
-    order: 1;
-    margin-left: 7%;
-    align-self: flex-start;
+  height: 10%;
+  order: 1;
+  margin-left: 7%;
+  align-self: flex-start;
 }
 
 .user-stats {
+  display: flex;
   order: 2;
   height: 80%;
   width: 90%;
-  border-radius: 7%;
+  border-radius: 10px;
   background-color: #bcb7b7;
 }
 
 .comp-stats {
+  display: flex;
   order: 2;
   height: 80%;
   width: 90%;
@@ -71,4 +73,15 @@
 
 p {
   margin: 0;
+  font-weight: bold;
+}
+
+.activities {
+  flex: 1;
+  width: 50%;
+}
+
+.rings {
+  flex: 1;
+  width: 50%;
 }
