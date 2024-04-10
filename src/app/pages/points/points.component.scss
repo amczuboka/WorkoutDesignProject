@@ -1,0 +1,74 @@
+.page-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #c0c0c0;
+}
+
+.points {
+  height: 15%;
+}
+
+.points p {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Activity {
+  height: 40%;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Competition {
+  height: 45%;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Activity p {
+    height: 10%;
+    order: 1;
+    margin-left: 5%;
+    align-self: flex-start;
+}
+
+.Competition p {
+    height: 10%;
+    order: 1;
+    margin-left: 7%;
+    align-self: flex-start;
+}
+
+.user-stats {
+  order: 2;
+  height: 80%;
+  width: 90%;
+  border-radius: 7%;
+  background-color: #bcb7b7;
+}
+
+.comp-stats {
+  order: 2;
+  height: 80%;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #bcb7b7;
+}
+
+p {
+  margin: 0;
+}
