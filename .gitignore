@@ -27,14 +27,19 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-./.angular/cache
 .sass-cache/
 /connect.lock
 /coverage
 /libpeerconnection.log
 testem.log
 /typings
+/.angular/cache
+/.angular/cache/
+/.angular/cache/15.2.11
+/.angular/cache/15.2.11/babel-webpack
 
 # System files
 .DS_Store
 Thumbs.db
+Design/Designs_v1.pdf
+Design/.Designs_v1.pdf.icloud
