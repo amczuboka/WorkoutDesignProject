@@ -1,45 +1,31 @@
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+### Angular template
+## Angular ##
+# compiled output
+dist/
+tmp/
+app/**/*.js
+app/**/*.js.map
 
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
+# dependencies
+node_modules/
+bower_components/
 
 # IDEs and editors
 .idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
 
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
+# misc
 .sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
+connect.lock/
+coverage/
+libpeerconnection.log/
+npm-debug.log
 testem.log
-/typings
-/.angular/cache
-/.angular/cache/
-/.angular/cache/15.2.11
-/.angular/cache/15.2.11/babel-webpack
+typings/
+.angular/
 
-# System files
-.DS_Store
-Thumbs.db
-Design/Designs_v1.pdf
-Design/.Designs_v1.pdf.icloud
+# e2e
+e2e/*.js
+e2e/*.map
+
+# System Files
+.DS_Store/
