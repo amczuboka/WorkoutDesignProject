@@ -1,0 +1,22 @@
+.day{
+    padding: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: #C5C5C5;
+    margin: 15px;
+    overflow-x: auto; /* Allow horizontal scrolling when content overflows */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.daytext{
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.workout{
+    padding: 30px;
+    background-color: white;
+    display: inline-block;
+    min-width: 50px;
+}
