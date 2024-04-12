@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .workout-list {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .workout-entry {
+    background-color: white;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .workout-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .workout-sets-reps {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .workout-name {
+    margin-right: 10px;
+  }
+  
+  .add-button {
+    position: absolute;
+    bottom: 80px;
+    right: 15px;
+    background-color: #ccc;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-button:hover {
+    background-color: #999;
+  }
+  
+  .options-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .options-button span {
+    margin-bottom: -7px; 
+  }
+  
+  .options-button:hover {
+    color: #007bff;
+  }
+  
