@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { MatIconModule } from '@angular/material/icon';
 import { PointsComponent } from './pages/points/points.component';
+import { PullComponent } from './pages/pull/pull.component';
 import { MyExercisesPageComponent } from './pages/my-exercises-page/my-exercises-page.component';
 import { RouterModule } from '@angular/router';
 @NgModule({
@@ -17,6 +18,7 @@ import { RouterModule } from '@angular/router';
     FooterComponent,
     LandingComponent,
     PointsComponent,
+    PullComponent,
     MyExercisesPageComponent,
   ],
   imports: [

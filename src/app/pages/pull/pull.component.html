@@ -1,0 +1,14 @@
+<div class="page-content">
+    <div class="exercise" *ngFor="let exercise of exercises; let i = index">
+        <div class="textbox">
+            <p>{{ exercise.name }}</p>
+        </div>
+        <div class="textbox-rep">
+            <p>{{ exercise.repetitions }}</p>
+        </div>
+        <button class="delete-button" (click)="deleteExercise(i)">
+            <img src="assets/trash.png" alt="Delete {{ exercise.name }}" width="30px">
+        </button>
+    </div>
+    <button class="add-button" (click)="addExercise()">+</button>
+</div>
