@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingComponent } from './pages/landing/landing.component';
 import { PointsComponent } from './pages/points/points.component';
+import { PullComponent } from './pages/pull/pull.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
     path: '',
     component: LandingComponent,
   },
+  {
+    path: 'pull',
+    component: PullComponent,
+  }
 ];
 
 @NgModule({

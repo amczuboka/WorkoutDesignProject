@@ -8,18 +8,20 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { MatIconModule } from '@angular/material/icon';
 import { PointsComponent } from './pages/points/points.component';
+import { PullComponent } from './pages/pull/pull.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     LandingComponent,
-    PointsComponent
+    PointsComponent,
+    PullComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatIconModule
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
