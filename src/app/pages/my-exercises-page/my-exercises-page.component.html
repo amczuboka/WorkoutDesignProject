@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="workout-list">
+    <div class="workout-entry" *ngFor="let workout of workouts">
+      <div class="workout-details">
+        <span class="workout-name">{{ workout.name }}</span>
+        <div class="workout-sets-reps">
+          <span>{{ workout.sets }} x {{ workout.reps }}</span>
+        </div>
+      </div>
+      <button class="options-button">
+        <span>&#8226;</span>
+        <span>&#8226;</span>
+        <span>&#8226;</span>
+      </button>
+    </div>
+  </div>
+  <button class="add-button" (click)="addWorkout()">+</button>
+</div>
