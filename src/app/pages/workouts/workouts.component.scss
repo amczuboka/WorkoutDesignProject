@@ -1,0 +1,86 @@
+html, body {
+  height: 100%;
+  margin-top: 10px;
+  background-color: #f0f0f0;
+}
+
+.workout-list {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.workout-entry {
+  background-color: white;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.workout-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.workout-name {
+  margin-right: 10px;
+}
+
+.number-of-exercises-container {
+  color: gray;
+  background-color: #007bff;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+}
+
+.number-of-exercises {
+  font-size: 0.80rem;
+  position: absolute;
+  color: gray;
+}
+
+.add-button {
+  position: absolute;
+  bottom: 100px;
+  right: 25px;
+  background-color: #ccc;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-button:hover {
+  background-color: #999;
+}
+
+.share-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.share-button span {
+  margin-bottom: -7px;
+}
+
+.share-button:hover {
+  color: #007bff;
+}
