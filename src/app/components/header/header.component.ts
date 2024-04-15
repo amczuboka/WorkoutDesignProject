@@ -34,7 +34,8 @@ export class HeaderComponent {
   mapPathToTitle(path: string): string {
     const titleMap: { [key: string]: string } = {
       points: 'My Points',
+      workouts: 'My Workouts',
     };
-    return titleMap[path] || 'My Workouts';
+    return titleMap[path] || 'My Calendar';
   }
 }
