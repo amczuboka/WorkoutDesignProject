@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LandingComponent } from './pages/landing/landing.component';
 import { PointsComponent } from './pages/points/points.component';
 import { RepositoryComponent } from './pages/repository/repository.component';
+
 const routes: Routes = [
   {
     path: 'points',
@@ -12,9 +13,10 @@ const routes: Routes = [
     path: '',
     component: LandingComponent,
   },
-  {path: 'repository',
-  component: RepositoryComponent,
-}
+  {
+    path: 'repository',
+    component: RepositoryComponent,
+  }
 ];
 
 @NgModule({

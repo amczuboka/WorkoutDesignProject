@@ -19,8 +19,6 @@ import { PointsComponent } from './pages/points/points.component';
     BrowserModule,
     AppRoutingModule,
     MatIconModule,
-   
- 
   ],
   providers: [],
   bootstrap: [AppComponent]
