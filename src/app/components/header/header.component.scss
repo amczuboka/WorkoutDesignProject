@@ -1,0 +1,21 @@
+.header {
+  background-color: #323232;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.icons {
+    margin-left: 10px;
+}

@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "workout-app:build:production"
+              "buildTarget": "workout-app:build:production"
             },
             "development": {
-              "browserTarget": "workout-app:build:development"
+              "buildTarget": "workout-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "workout-app:build"
+            "buildTarget": "workout-app:build"
           }
         },
         "test": {
@@ -102,6 +102,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": "1a777da3-49d1-4907-8312-c6b0c8a12420"
+=======
+    "analytics": false
+>>>>>>> be340670c4677f9cf2233a0a79fe822e05754bd4
   }
 }
