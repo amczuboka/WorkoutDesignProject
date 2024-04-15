@@ -1,0 +1,50 @@
+.day{
+    padding: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: #C5C5C5;
+    margin: 15px;
+    overflow-x: auto; /* Allow horizontal scrolling when content overflows */
+    white-space: nowrap; /* Prevent line breaks */
+    font-size: 24px;
+    display: flex; /* Make day divs flex containers */
+    align-items: center; /* Center items vertically */
+    height: 90px;
+    justify-content: flex-start; /* Align items to the start */
+
+}
+
+.daytext{
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 35px;
+    width: 105px; 
+}
+
+.workout{
+    font-size: 22px;
+    padding: 30px;
+    background-color: white;
+    display: inline-block;
+    min-width: 85px;
+    position: relative; /* Set position relative */
+    margin-right:15px;
+    flex-shrink: 0; /* Prevent shrinking of the workout div */
+}
+
+.suffix {
+    color: grey;
+    display: inline-block;
+    position: absolute; /* Position the suffix absolutely */
+    bottom: 0px; /* Adjust this value to position the suffix relative to the workout name */
+    margin-bottom: 10px;
+}
+
+.workout::after {
+    content: '⋮'; /* Use three dots as content */
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    color: black; /* Color of the dots */
+}

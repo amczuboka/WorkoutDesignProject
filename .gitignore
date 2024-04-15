@@ -55,10 +55,3 @@ e2e/*.map
 
 # System Files
 .DS_Store/
-
-
-# System files
-.DS_Store
-Thumbs.db
-Design/Designs_v1.pdf
-Design/.Designs_v1.pdf.icloud
