@@ -30,11 +30,12 @@ export class HeaderComponent {
       this.pageTitle = this.mapPathToTitle(path || ''); 
     });
   }
-
+    
   mapPathToTitle(path: string): string {
     const titleMap: { [key: string]: string } = {
       points: 'My Points',
       workouts: 'My Workouts',
+      'my-exercises': 'My Exercises',
     };
     return titleMap[path] || 'My Calendar';
   }

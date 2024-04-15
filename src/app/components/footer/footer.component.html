@@ -11,7 +11,7 @@
       <p>My Calendar</p>
     </div>
   </a>
-  <a href="#">
+  <a [routerLink]="['/my-exercises']" class="footer-item" (click)="updateFooterTitle('My Exercises')">
     <div class="footer-item">
       <mat-icon>fitness_center</mat-icon>
       <p>My Exercises</p>
