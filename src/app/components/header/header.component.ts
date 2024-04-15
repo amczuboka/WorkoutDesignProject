@@ -35,6 +35,6 @@ export class HeaderComponent {
     const titleMap: { [key: string]: string } = {
       points: 'My Points',
     };
-    return titleMap[path] || 'My Workouts';
+    return titleMap[path] || 'My Calendar';
   }
 }
