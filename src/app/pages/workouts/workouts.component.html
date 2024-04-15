@@ -1,6 +1,6 @@
 <div class="container">
   <div class="workout-list">
-    <div class="workout-entry" *ngFor="let workout of workouts">
+    <div (click)="goToPull()" class="workout-entry" *ngFor="let workout of workouts">
       <div class="workout-details">
         <span class="workout-name">{{ workout.name }}</span>
         <div class="number-of-exercises-container">

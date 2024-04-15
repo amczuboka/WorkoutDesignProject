@@ -20,5 +20,6 @@ export class PullComponent {
   } 
 
   addExercise(): void {
+    window.location.href = '/my-exercises';
   }
 }

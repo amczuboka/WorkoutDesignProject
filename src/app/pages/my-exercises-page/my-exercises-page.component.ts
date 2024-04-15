@@ -20,7 +20,8 @@ export class MyExercisesPageComponent {
     { name: 'Lunges', sets: 3, reps: 10 }
   ];
 
-  addWorkout() {
+  goToRepository() {
+    window.location.href = '/repository';
   }
 }
 

@@ -26,7 +26,9 @@ export class WorkoutsComponent {
   ]
 
 
-  addWorkout() {
+  addWorkout() {}
 
+  goToPull() {
+    window.location.href = '/pull';
   }
 }
