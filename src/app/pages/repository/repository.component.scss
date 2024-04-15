@@ -76,18 +76,7 @@ align-items: center;
     -moz-appearance: none; /* Hide the default arrow in Mozilla Firefox */
     appearance: none; /* Hide the default arrow in other browsers */
   }
-  .circle-button {
-    width: 60px;
-    height: 60px;
-    background-color: lightgrey;
-    border-radius: 50%; /* Makes the button circular */
-    border: none;
-    cursor: pointer;
-    position: absolute;
-             bottom: 100px;
-            right: 300px;
-            border: 2px solid black;
-  }
+
   
   .plus-sign {
     color: black;
@@ -97,4 +86,21 @@ align-items: center;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .add-button {
+    position: absolute;
+    bottom: 100px;
+    right: 25px;
+    background-color: #ccc;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
   
+  .add-button:hover {
+    background-color: #999;
+  }
