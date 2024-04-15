@@ -36,6 +36,6 @@ export class HeaderComponent {
       points: 'My Points',
       repository: 'Repository',
     };
-    return titleMap[path] || 'My Calendar';
+    return titleMap[path] || 'My Workouts';
   }
 }
