@@ -1,5 +1,6 @@
 # WorkoutDesignProject
 This project is for a User Interface Design class. The app is a workout app that allows users to build their own workouts.  
+Link to a Youtube Video of a teammate browsing through the WorkoutWithMe application: https://youtu.be/C-27NGXqwmc 
 
 **Teammates:**  
 Ann-Marie Czuboka (SB)  
